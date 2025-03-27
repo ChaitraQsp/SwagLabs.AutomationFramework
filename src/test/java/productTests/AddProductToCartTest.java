@@ -45,7 +45,7 @@ public class AddProductToCartTest extends BaseClass{
 		
 		Assert.assertTrue(productInCart.equals(productAdded));
 		System.out.println(productInCart);
-			
+		System.out.println("Assertion -- Done");	
 		
 	}
     
